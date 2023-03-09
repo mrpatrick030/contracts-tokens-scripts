@@ -24,6 +24,11 @@ const config: HardhatUserConfig = {
       //@ts-ignore
       accounts: [process.env.PRIVATE_KEY1]
     },
+    sepoliatestnetwork: {
+      url: process.env.SEPOLIA_RPC,
+      //@ts-ignore
+      accounts: [process.env.PRIVATE_KEY1]
+    },
     smartchaintestnetwork: {
       url: process.env.SMARTCHAINTESTNET_RPC,
       //@ts-ignore
